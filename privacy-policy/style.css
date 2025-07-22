@@ -1,0 +1,66 @@
+body {
+    background: #f7f8fa;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 40px 32px 32px 32px;
+}
+
+header {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin: 0 0 8px 0;
+    color: #2a3a5e;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #888;
+    margin: 0;
+}
+
+main section {
+    margin-bottom: 28px;
+}
+
+main p {
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+}
+
+.contact h2 {
+    font-size: 1.2rem;
+    color: #2a3a5e;
+    margin-bottom: 8px;
+}
+
+.email {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1a73e8;
+}
+
+.email a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+}
+
+.email a:hover {
+    text-decoration: underline;
+} 
