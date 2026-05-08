@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | TrackID</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 { font-size: 1.4rem; color: #2a3a5e; margin: 32px 0 12px; }
+        h3 { font-size: 1.1rem; color: #2a3a5e; margin: 20px 0 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.92rem; }
+        th { background: #f0f4ff; color: #2a3a5e; text-align: left; padding: 8px 10px; border: 1px solid #dde3f0; }
+        td { padding: 8px 10px; border: 1px solid #dde3f0; vertical-align: top; line-height: 1.5; }
+        tr:nth-child(even) td { background: #fafbff; }
+        ul { margin: 8px 0 16px 20px; line-height: 1.8; }
+        .meta { font-size: 0.9rem; color: #888; margin-bottom: 4px; }
+        .summary-box { background: #f0f4ff; border-left: 4px solid #3a6bce; border-radius: 6px; padding: 16px 20px; margin: 24px 0; }
+        .summary-box ul { margin: 8px 0 0 16px; }
+        .warning-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 6px; padding: 14px 18px; margin: 0 0 24px; font-size: 0.93rem; }
+        hr { border: none; border-top: 1px solid #e0e0e0; margin: 32px 0; }
+        footer { font-size: 0.88rem; color: #aaa; text-align: center; margin-top: 32px; }
+        a { color: #1a73e8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy — TrackID</h1>
+            <p class="meta"><strong>Effective Date:</strong> 8 May 2026</p>
+            <p class="meta"><strong>Last Updated:</strong> 8 May 2026</p>
+            <p class="copyright">© 2026 Maxim Kozlov. All rights reserved.</p>
+        </header>
+        <main>
+
+            <div class="summary-box">
+                <strong>Quick Summary (Plain English)</strong>
+                <ul>
+                    <li><strong>No signup required.</strong> We don't ask for your email, name, age, or anything personal.</li>
+                    <li><strong>We don't sell your data.</strong> Period.</li>
+                    <li><strong>We do collect anonymous usage stats</strong> (which genres are popular, crash reports) to make the app better.</li>
+                    <li><strong>Ads are served by Google AdMob.</strong> They use an advertising ID to show relevant ads. You can opt out in your phone settings.</li>
+                    <li><strong>Music streams from Deezer's catalog.</strong> Their preview URLs play through your device — we don't store songs.</li>
+                    <li><strong>You can delete your data anytime</strong> by uninstalling the app (and emailing us if you want server-side data removed too).</li>
+                </ul>
+            </div>
+
+            <h2>1. Who We Are</h2>
+            <p>TrackID ("the app", "we", "us", "our") is operated by Maxim Kozlov, based in Givatayim, Israel.</p>
+            <p>For privacy questions or requests, contact us at: <strong><a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a></strong></p>
+
+            <hr>
+
+            <h2>2. Information We Collect</h2>
+
+            <h3>2.1 Information you provide</h3>
+            <p><strong>None at signup.</strong> TrackID does not require an account, email address, password, or any personal information to use. You can play immediately without telling us anything about yourself.</p>
+            <p>If you choose to contact us by email (for support or feedback), we receive whatever information you include in that message.</p>
+
+            <h3>2.2 Information collected automatically</h3>
+            <p>When you use TrackID, we automatically collect the following technical and usage information:</p>
+            <table>
+                <thead>
+                    <tr><th>Data</th><th>Why we collect it</th><th>Source</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Anonymous user identifier (Firebase UID)</td><td>To save your scores and streaks across sessions</td><td>Firebase Anonymous Authentication</td></tr>
+                    <tr><td>Device type, OS version, app version</td><td>Crash reports, compatibility</td><td>Firebase Crashlytics</td></tr>
+                    <tr><td>App usage events (genres played, quiz completions, scores)</td><td>Improve the app, identify popular features</td><td>Firebase Analytics</td></tr>
+                    <tr><td>Crash logs and stack traces</td><td>Diagnose and fix bugs</td><td>Firebase Crashlytics</td></tr>
+                    <tr><td>Advertising identifier (IDFA on iOS, AAID on Android)</td><td>Show relevant ads, frequency capping</td><td>Google AdMob</td></tr>
+                    <tr><td>Approximate location (country-level, derived from IP)</td><td>Regional ad targeting, analytics</td><td>Google AdMob, Firebase Analytics</td></tr>
+                    <tr><td>Network type (Wi-Fi vs cellular)</td><td>Audio streaming quality decisions</td><td>Local device</td></tr>
+                </tbody>
+            </table>
+
+            <p>We <strong>do not</strong> collect:</p>
+            <ul>
+                <li>Your name</li>
+                <li>Your email address (unless you email us)</li>
+                <li>Your phone number</li>
+                <li>Your contacts, photos, calendar, or microphone data</li>
+                <li>Your precise location (GPS)</li>
+                <li>Your browsing history outside the app</li>
+                <li>Your social media accounts</li>
+            </ul>
+
+            <h3>2.3 Information stored on your device</h3>
+            <p>The following is stored locally on your device (using MMKV) and is not transmitted to our servers:</p>
+            <ul>
+                <li>Your settings (sound on/off, haptics on/off, language)</li>
+                <li>Your high scores and current streak</li>
+                <li>A cache version flag (technical, no personal data)</li>
+            </ul>
+            <p>This local data can be cleared anytime by uninstalling the app or clearing app data through your device settings.</p>
+
+            <hr>
+
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the information described above to:</p>
+            <ul>
+                <li><strong>Operate the app</strong> — maintain your anonymous account, save your scores</li>
+                <li><strong>Improve the app</strong> — understand which genres are popular, where users drop off, what's broken</li>
+                <li><strong>Fix bugs</strong> — diagnose crashes through Crashlytics stack traces</li>
+                <li><strong>Show ads</strong> — Google AdMob serves banner and rewarded video ads to keep the app free</li>
+                <li><strong>Communicate with you</strong> — only if you email us first</li>
+            </ul>
+            <p>We do <strong>not</strong> use your data for:</p>
+            <ul>
+                <li>Selling to third parties</li>
+                <li>Building marketing profiles for resale</li>
+                <li>Cross-app tracking outside our own analytics</li>
+                <li>Behavioral targeting beyond what AdMob provides for ad serving</li>
+            </ul>
+
+            <hr>
+
+            <h2>4. Third-Party Services</h2>
+            <p>TrackID uses the following third-party services. Each has its own privacy policy.</p>
+
+            <h3>4.1 Google Firebase</h3>
+            <p>We use Firebase Authentication (anonymous), Firestore (database), Analytics, and Crashlytics.<br>
+            <strong>Provider:</strong> Google LLC<br>
+            <strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a><br>
+            <strong>Data shared:</strong> Anonymous user ID, device info, usage events, crash logs</p>
+
+            <h3>4.2 Google AdMob</h3>
+            <p>We use AdMob to serve banner and rewarded video advertisements.<br>
+            <strong>Provider:</strong> Google LLC<br>
+            <strong>Privacy Policy:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a><br>
+            <strong>Data shared:</strong> Advertising identifier, IP-based country, ad interaction data</p>
+
+            <h3>4.3 Deezer</h3>
+            <p>We stream 30-second song previews from Deezer's public catalog API. Audio files are not stored by us.<br>
+            <strong>Provider:</strong> Deezer S.A.<br>
+            <strong>Privacy Policy:</strong> <a href="https://www.deezer.com/legal/personal-datas" target="_blank" rel="noopener">https://www.deezer.com/legal/personal-datas</a><br>
+            <strong>Data shared:</strong> Generic API requests (genre/playlist IDs only — no user identifier sent to Deezer)</p>
+
+            <h3>4.4 Apple App Store / Google Play</h3>
+            <p>When you download the app, the relevant store collects information per their own policies.<br>
+            <strong>Apple:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a><br>
+            <strong>Google:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+
+            <hr>
+
+            <h2>5. Advertising and Tracking Choices</h2>
+
+            <h3>5.1 iOS App Tracking Transparency (ATT)</h3>
+            <p>On iOS 14.5 and later, when you first open the app you'll see a system prompt asking permission to track your device's advertising identifier. If you decline, AdMob shows non-personalized ads (still functional, just not tailored).</p>
+
+            <h3>5.2 Limit ad tracking</h3>
+            <p>You can reset or disable your advertising identifier at any time:</p>
+            <ul>
+                <li><strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking → toggle off, or Settings → Privacy &amp; Security → Apple Advertising → Personalized Ads off</li>
+                <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization (or "Delete advertising ID")</li>
+            </ul>
+
+            <h3>5.3 Disable analytics in-app</h3>
+            <p>You can disable in-app analytics events anytime in <strong>Settings → Privacy → Analytics</strong> (within TrackID).</p>
+
+            <hr>
+
+            <h2>6. Data Retention</h2>
+            <table>
+                <thead>
+                    <tr><th>Data type</th><th>Retention period</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Anonymous user account</td><td>Until you request deletion or 24 months of inactivity</td></tr>
+                    <tr><td>Game session records</td><td>24 months, then automatically deleted</td></tr>
+                    <tr><td>Analytics events (Firebase)</td><td>Retained per Google's default (currently 14 months)</td></tr>
+                    <tr><td>Crash reports</td><td>90 days after crash</td></tr>
+                    <tr><td>Local device data</td><td>Until you uninstall the app</td></tr>
+                    <tr><td>Email correspondence</td><td>Up to 24 months for support history</td></tr>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <h2>7. Your Rights</h2>
+            <p>Depending on where you live, you may have the following rights regarding your data.</p>
+
+            <h3>7.1 Everyone</h3>
+            <p>You can:</p>
+            <ul>
+                <li><strong>Stop using the app</strong> at any time by uninstalling it. This wipes local data immediately.</li>
+                <li><strong>Request deletion</strong> of your anonymous server-side records by emailing <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a> with the subject "Delete my data" and including the anonymous user ID shown in Settings → About.</li>
+                <li><strong>Limit ads</strong> through your device's advertising ID controls (see Section 5).</li>
+            </ul>
+
+            <h3>7.2 EU / UK residents (GDPR)</h3>
+            <p>You have the right to: access, rectify, erase, restrict, and port your data, object to processing, and lodge a complaint with your local Data Protection Authority.</p>
+            <p>Email <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a> with "GDPR Request" in the subject line. We respond within 30 days.</p>
+            <p><strong>Legal basis for processing under GDPR:</strong></p>
+            <ul>
+                <li>Anonymous account + game progress: legitimate interest in providing the service</li>
+                <li>Analytics: legitimate interest in improving the app</li>
+                <li>Advertising: consent (via ATT prompt on iOS, opt-out on Android)</li>
+                <li>Crash reports: legitimate interest in app stability</li>
+            </ul>
+
+            <h3>7.3 California residents (CCPA / CPRA)</h3>
+            <p>We do <strong>not</strong> sell your personal information. AdMob's ad serving may be considered "sharing" under CPRA — you can opt out via the iOS ATT prompt or Android ad ID controls.</p>
+
+            <h3>7.4 Israeli residents (PPL)</h3>
+            <p>You have the right to access, correct, or delete personal information about you, per Israel's Privacy Protection Law 5741-1981 (חוק הגנת הפרטיות). Email <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a> to exercise these rights.</p>
+
+            <hr>
+
+            <h2>8. Children's Privacy</h2>
+            <p>TrackID is rated <strong>12+</strong> on the App Store and <strong>Teen</strong> on Google Play. The app is not directed at children under 13 (or 16 in the EU/UK).</p>
+            <p>We do not knowingly collect personal information from children under the applicable age. If you are a parent or guardian and believe a child under the applicable age has provided personal information to us, please contact us at <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a> and we will promptly delete the data.</p>
+            <p>The 12+ rating reflects that some music tracks streamed from Deezer's catalog may contain explicit lyrics. We do not control individual track content.</p>
+
+            <hr>
+
+            <h2>9. Security</h2>
+            <p>We take reasonable steps to protect the information we collect:</p>
+            <ul>
+                <li>All network traffic uses HTTPS / TLS encryption</li>
+                <li>Firestore data is access-restricted by Firebase Security Rules — users can only read/write their own data</li>
+                <li>We do not store passwords (no signup = no passwords)</li>
+                <li>Cloud infrastructure (Firebase, AdMob) is operated by Google with industry-standard security</li>
+            </ul>
+            <p>No system is 100% secure. If we become aware of a security incident affecting your data, we will notify you and the relevant authorities as required by applicable law.</p>
+
+            <hr>
+
+            <h2>10. International Data Transfers</h2>
+            <p>TrackID is operated from Givatayim, Israel. Our third-party providers (Google Firebase, Google AdMob, Deezer) operate globally and may process data in the United States, European Union, or other countries.</p>
+            <p>For users in the EU/UK, transfers outside the European Economic Area are made under appropriate safeguards (Standard Contractual Clauses, Google's Data Processing Addendum).</p>
+
+            <hr>
+
+            <h2>11. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. When we do, we update the "Last Updated" date at the top. For material changes, we'll show an in-app notice on next launch. Your continued use of TrackID after changes are posted constitutes acceptance of the updated policy.</p>
+
+            <hr>
+
+            <h2>12. Contact</h2>
+            <p>For privacy questions, data requests, or anything else:</p>
+            <p><strong>Email:</strong> <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a><br>
+            <strong>Operator:</strong> Maxim Kozlov, Givatayim, Israel</p>
+            <p>We aim to respond to privacy inquiries within 30 days.</p>
+
+            <hr>
+
+            <h2>13. Specific Disclosures for App Stores</h2>
+
+            <h3>Apple Privacy Nutrition Labels (App Store)</h3>
+            <p>The following data types may be collected and linked to your anonymous identifier: Product Interaction, Crash Data, Performance Data, Other Diagnostic Data.</p>
+            <p>The following data types may be collected and used for tracking (only with ATT consent): Device ID (advertising identifier for ad serving).</p>
+            <p>We do not collect: Contact Info, Health &amp; Fitness, Financial Info, precise Location, Sensitive Info, Contacts, User Content, Browsing History, Search History, or Purchases.</p>
+
+            <h3>Google Play Data Safety</h3>
+            <ul>
+                <li><strong>Data collected:</strong> App activity (in-app actions), App info (crash logs, diagnostics), Device IDs</li>
+                <li><strong>Data shared with third parties:</strong> App activity, Device IDs (with Google Firebase, AdMob)</li>
+                <li><strong>Data is encrypted in transit:</strong> Yes</li>
+                <li><strong>Users can request data deletion:</strong> Yes, by emailing <a href="mailto:admtrigger@gmail.com">admtrigger@gmail.com</a></li>
+            </ul>
+
+            <hr>
+
+            <h2>14. Languages</h2>
+            <p>This Privacy Policy is provided in English. If translations are provided, the English version controls in case of conflict.</p>
+
+        </main>
+        <footer>
+            © 2026 Maxim Kozlov. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
